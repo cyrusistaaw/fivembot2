@@ -32,7 +32,7 @@ mainBot.once('ready', async () => {
     console.log(`${colors.green}✅ Ana bot başarıyla giriş yaptı: ${mainBot.user.tag}${colors.reset}`);
 
     // Yayında statüsü ve yazısı
-    mainBot.user.setActivity('Cyrus🤍Beyza', {
+    mainBot.user.setActivity('Developed By Cyrus', {
         type: ActivityType.Streaming,
         url: 'https://www.twitch.tv/discord'
     });
